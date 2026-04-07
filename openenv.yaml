@@ -1,0 +1,17 @@
+name: "Warehouse Packing Optimization Environment"
+version: "1.0.0"
+description: "This environment simulates a warehouse worker packing items into boxes efficiently to minimize wasted space and number of boxes used."
+tags:
+  - openenv
+  - logistics
+  - warehouse
+tasks:
+  - name: "task_1"
+    description: "Pack items in a single box without overflow"
+    difficulty: "easy"
+  - name: "task_2"
+    description: "Pack items across multiple boxes efficiently"
+    difficulty: "medium"
+  - name: "task_3"
+    description: "Optimize packing efficiency to minimize space"
+    difficulty: "hard"
