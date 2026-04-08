@@ -1,3 +1,12 @@
+---
+title: Warehouse Env
+emoji: 💻
+colorFrom: yellow
+colorTo: gray
+sdk: docker
+pinned: false
+---
+
 # Warehouse Packing Optimization Environment
 
 This is an OpenEnv-compliant environment simulating a warehouse worker packing items into boxes efficiently to minimize wasted space and the number of boxes used.
