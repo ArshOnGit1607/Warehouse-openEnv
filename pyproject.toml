@@ -2,6 +2,7 @@
 name = "warehouse-packing-env"
 version = "0.1.0"
 description = "OpenEnv warehouse packing environment"
+requires-python = ">=3.10"
 authors = [
     {name = "Arshnoor Singh"},
     {name = "Krisha Jogiya"},
@@ -12,8 +13,12 @@ dependencies = [
 "uvicorn",
 "pydantic",
 "requests",
-"openai"
+"openai",
+"openenv-core>=0.2.0"
 ]
 
+[project.scripts]
+server = "server.app:app"
+
 [tool.openenv]
-entrypoint = "main:app"
+entrypoint = "server.app:app"
