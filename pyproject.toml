@@ -2,7 +2,11 @@
 name = "warehouse-packing-env"
 version = "0.1.0"
 description = "OpenEnv warehouse packing environment"
-authors = [{name = "Auto Generated"}]
+authors = [
+    {name = "Arshnoor Singh"},
+    {name = "Krisha Jogiya"},
+    {name = "Shivam Bilwadiya"}
+]
 dependencies = [
 "fastapi",
 "uvicorn",
