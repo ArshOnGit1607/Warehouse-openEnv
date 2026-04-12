@@ -1,0 +1,15 @@
+[project]
+name = "warehouse-packing-env"
+version = "0.1.0"
+description = "OpenEnv warehouse packing environment"
+authors = [{name = "Auto Generated"}]
+dependencies = [
+"fastapi",
+"uvicorn",
+"pydantic",
+"requests",
+"openai"
+]
+
+[tool.openenv]
+entrypoint = "main:app"
